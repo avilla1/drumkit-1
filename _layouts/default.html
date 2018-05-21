@@ -52,8 +52,8 @@ function removeTransition(e) {
 {% for post in site.posts %}
     
       <div class="keys">
-        <div data-key="{{ post.key }}" class="key">
-          <kbd>G: {{ post.content }}</kbd>
+        <div data-key="{{ post.keycode }}" class="key">
+          <kbd>{{ post.content }}</kbd>
           <span class="sound">{{ post.title }}</span>
       </div>
     
